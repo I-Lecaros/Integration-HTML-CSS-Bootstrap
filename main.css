@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Lato", "Merriweather-italic", "Merriweather-Bold";
+  src: url("fonts/Lato-Regular.ttf"), ("fonts/Merriweather-Italic"),
+    ("fonts/Merriweather-Bold");
+}
+
+.gris {
+  background-color: gray;
+  height: 1px;
+  width: 100%;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: lato;
+  font-size: 14px;
+}
+
+.titre {
+  display: grid;
+  text-align: center;
+}
+
+.soustitre {
+  display: grid;
+  text-align: center;
+}
+
+div.imag1 {
+  background-image: url("Photo-image/fashion-beauty-model-portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 555px;
+}
+
+div.imag2 {
+  background-image: url("Photo-image/fashion-woman-model-portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 285px;
+}
+
+div.imag3 {
+  background-image: url("Photo-image/fashion-man-person-winter.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 268px;
+}
+
+div.imag4 {
+  background-image: url("Photo-image/child-childrens-baby-children-s.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 268px;
+}
+
+div.imag5 {
+  background-image: url("Photo-image/photo-produit.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 315px;
+}
+
+div.bg-imag {
+  background-color: #131313;
+}
+
+div.imag6 {
+  background-image: url("Photo-image/sac.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+/*text-white*/
+p.t-sac {
+  color: white;
+}
+
+/*text-orange*/
+p.t-o {
+  color: #ffab00;
+}
+
+button.mybutton {
+  height: 27px;
+  
+}
+
+button.rose {
+  height: 27px;
+  background-color: rgb(224, 195, 185);
+  border-color:  rgb(224, 195, 185);
+}
